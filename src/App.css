@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+body {
+  background: #ffe6d6;
+}
+h1 {
+  color: #94360b;
+}
+.inputbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+input {
+  width: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #f5873d;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 2px 5px 0px rgb(119, 117, 117);
+}
+.hero {
+  width: 50vw;
+}
+p {
+  margin: 20px 0;
+}
